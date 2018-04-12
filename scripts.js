@@ -1,4 +1,4 @@
-function Button() {
+function Button(text) {
 	this.text = text || 'Hello';
 }
 
@@ -14,4 +14,5 @@ Button.prototype = {
 	}
 }
 
+var btn1 = new Button('Hello');
 btn1.create();
